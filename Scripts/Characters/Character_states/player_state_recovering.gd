@@ -1,7 +1,7 @@
 extends PlayerState
 class_name PlayerSstateRecovering
 
-const DURATION_RECOVERY := 500
+const DURATION_RECOVERY := 300
 
 var time_stat_tackle := Time.get_ticks_msec()
 
